@@ -22,16 +22,16 @@
               <p>In den folgenden vier Kategorien bieten wir bei Stöffels Fahrschule Unterricht an:</p>
               <div class="row">
                 <div class="col-md-3 category_icon">
-                  <a href="https://www.ocn.ch/sites/default/files/2020-12/Ausfuehrliche_informationen_kategorie_A1_20201228.pdf" target="_blank"><img src="./img/icon_active_A1" width="100" /></a>
+                  <a href="https://www.ocn.ch/sites/default/files/2020-12/Ausfuehrliche_informationen_kategorie_A1_20201228.pdf" target="_blank"><img src="./img/icon_active_A1.png" width="100" /></a>
                 </div>
                 <div class="col-md-3 category_icon">
-                  <a href="https://www.ocn.ch/sites/default/files/2020-12/Ausfuehrliche_informationen_kategorie_A_20201229.pdf" target="_blank"><img src="./img/icon_active_A" width="100" /></a>
+                  <a href="https://www.ocn.ch/sites/default/files/2020-12/Ausfuehrliche_informationen_kategorie_A_20201229.pdf" target="_blank"><img src="./img/icon_active_A.png" width="100" /></a>
                 </div>
                 <div class="col-md-3 category_icon">
-                  <a href="https://www.ocn.ch/sites/default/files/2020-12/Ausfuehrliche_informationen_kategorie_B_20201228.pdf" target="blank"><img src="./img/icon_active_B" width="100" /></a>
+                  <a href="https://www.ocn.ch/sites/default/files/2020-12/Ausfuehrliche_informationen_kategorie_B_20201228.pdf" target="blank"><img src="./img/icon_active_B.png" width="100" /></a>
                 </div>
                 <div class="col-md-3 category_icon">
-                  <a href="https://www.ocn.ch/sites/default/files/2020-12/Ausfuehrliche_informationen_kategorie_BE_20201228.pdf" target="blank"><img src="./img/icon_active_BE" width="100" /></a>
+                  <a href="https://www.ocn.ch/sites/default/files/2020-12/Ausfuehrliche_informationen_kategorie_BE_20201228.pdf" target="blank"><img src="./img/icon_active_BE.png" width="100" /></a>
                 </div>
               </div>
               <p>Für eine Fahrstunde kann beispielsweise auch eine Strecke von Gstaad nach Thun befahren werden. Man muss also eine Fahrlektion nicht am selben Ort starten und beenden.</p>
