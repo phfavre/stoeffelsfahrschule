@@ -1,0 +1,62 @@
+@font-face {
+  font-family: Roboto;
+  src: url(../ext/font/roboto/Roboto-Light.ttf);
+}
+
+
+@font-face {
+  font-family: Brandon;
+  src: url(../ext/font/brandon_grotesque/brandon-grotesque-light.otf);
+}
+
+@font-face {
+  font-family: Didot;
+  src: url(../ext/font/linotype_didot/DidotLH-RomanOsF.otf);
+}
+
+body
+{
+  font-family: "Roboto";
+}
+/*
+@media screen and (max-width:720px) {
+  body
+  {
+    background-image: none;
+    background-color: rgba(51, 71, 95, 0.75);
+  }
+}*/
+
+html
+{
+  scroll-behavior: smooth;
+}
+
+.section_title
+{
+  font-size: 20px;
+  letter-spacing: 10px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.section_content
+{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.capLetters
+{
+  text-transform: uppercase;
+}
+
+.italicLetters
+{
+  font-style: italic;
+}
+
+.boldLetters
+{
+  font-weight: bold;
+}
