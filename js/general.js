@@ -1,21 +1,8 @@
 
-$('.anchorLink').click(function(){
+$('a[href^="#"]').click(function() {
+    var target = parseInt($(this).offset().top);
     $('html, body').animate({
-        scrollTop: $( $(this).attr('href') ).offset().top
-    }, 500);
-    return false;
-});
-
-$('#product_section_button').click(function(){
-    $('html, body').animate({
-        scrollTop: $( $(this).attr('href') ).offset().top
-    }, 500);
-    return false;
-});
-
-$('#title_arrow_down_img').click(function(){
-    $('html, body').animate({
-        scrollTop: $( $(this).attr('href') ).offset().top
-    }, 500);
+      scrollTop: target - 150
+    }, "slow");
     return false;
 });
