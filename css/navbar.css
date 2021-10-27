@@ -135,6 +135,11 @@ ul.topnav li a .navItemBorder
     height: 200px;
   }
 
+  #my_navbar_buttons
+  {
+    background-color: rgba(41, 40, 40, 0.95);
+  }
+
   ul.topnav li:not(.my_nav_static) {display: none;}
   ul.topnav li.icon {
     float: right;
@@ -143,7 +148,10 @@ ul.topnav li a .navItemBorder
 }
 
 @media screen and (max-width:1000px) {
-  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive {
+    position: relative;
+    z-index: 5;
+  }
   ul.topnav.responsive li.icon {
     position: absolute;
     right: 0;
