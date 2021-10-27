@@ -7,7 +7,7 @@
 
 .link_card_outer
 {
-  height: 310px;
+  min-height: 310px;
   background-color: #0194de;
   position: relative;
   margin: 15px 15px 0px 15px;
@@ -22,11 +22,18 @@
   padding: 15px 25px 0px 25px;
   border: solid 1px #eaeaea;
   border-radius: 25px;
-  height: 300px;
+  min-height: 300px;
   position: absolute;
   bottom: 0px;
   background-color: #ffffff;
   width: 100%;
+}
+
+@media screen and (max-width:1000px) {
+  .link_card
+  {
+    position: relative;
+  }
 }
 
 #link_card_title

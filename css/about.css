@@ -21,6 +21,23 @@
   bottom: 60px;
 }
 
+#qr_code_img
+{
+  width: 200px;
+}
+
+@media screen and (max-width:1000px) {
+  #about_contact_div
+  {
+    bottom: 0px;
+  }
+
+  #qr_code_img
+  {
+    width: 150px;
+  }
+}
+
 #about_contact_div_subtitle
 {
   color: #0194de;

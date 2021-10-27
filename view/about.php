@@ -19,7 +19,7 @@
           +41 79 311 18 62<br />
           info@stoeffels-fahrschule.ch  
         </p>
-        <img src="./img/contact_qr.jpg" width="200">
+        <img id="qr_code_img" src="./img/contact_qr.jpg">
       </div>
     </div>
   </div>

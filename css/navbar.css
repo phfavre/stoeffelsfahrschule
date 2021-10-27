@@ -130,6 +130,11 @@ ul.topnav li a .navItemBorder
 }
 
 @media screen and (max-width:1000px) {
+  #navbar_wrapper
+  {
+    height: 200px;
+  }
+
   ul.topnav li:not(.my_nav_static) {display: none;}
   ul.topnav li.icon {
     float: right;
