@@ -13,6 +13,8 @@
   margin-bottom: 0px;
   margin: auto;
   border-top: solid 2px #0194de;
+  border-left: solid 2px black;
+  border-right: solid 2px black;
 }
 
 #my_navbar_topper
@@ -137,7 +139,7 @@ ul.topnav li a .navItemBorder
 
   #my_navbar_buttons
   {
-    background-color: rgba(41, 40, 40, 0.95);
+    background-color: rgba(41, 40, 40, 1.00);
   }
 
   ul.topnav li:not(.my_nav_static) {display: none;}
