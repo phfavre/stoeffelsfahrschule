@@ -137,9 +137,14 @@ ul.topnav li a .navItemBorder
     height: 200px;
   }
 
+  #my_navbar
+  {
+    z-index: 5;
+  }
+
   #my_navbar_buttons
   {
-    background-color: rgba(41, 40, 40, 1.00);
+    background-color: rgba(41, 40, 40, 0.85);
   }
 
   ul.topnav li:not(.my_nav_static) {display: none;}
