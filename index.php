@@ -61,6 +61,7 @@
     <script type="text/javascript" src="ext/slick/slick.js"></script>
     <script src="js/general.js"></script>
     <script src="js/navbar.js"></script>
+    <script src="js/course.js"></script>
     <script src="ext/lightbox/dist/js/lightbox.min.js"></script>
   </body>
 </html>

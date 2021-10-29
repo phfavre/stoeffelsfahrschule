@@ -1,4 +1,9 @@
 
+<?php
+  $dataPath = "data/course_schedule.json";
+  $dataJsonStr = file_get_contents($dataPath);
+?>
+
 <section id="course_section">
   <div class="container">
     <div class="row">
@@ -93,6 +98,32 @@
           </div>
         </div>
       </div>
+    </div>
+    <br /><br />
+    <div class="row">
+      <div class="col-md-6">
+        <div class="course_type_card_outer">
+          <div class="course_type_card">
+            <div class="course_type_card_title">
+              Nächster Motorrad Grundkurse
+            </div>
+            <div id="moto_course_info_div"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="course_type_card_outer">
+          <div class="course_type_card">
+            <div class="course_type_card_title">
+              Nächster Verkehrskunde Kurs VKU
+            </div>
+            <div id="vku_course_info_div"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="course_dates_data_hidden" hidden>
+      <?php echo $dataJsonStr; ?>
     </div>
   </div>
 </section>

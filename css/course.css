@@ -106,3 +106,45 @@
   font-size: 13px;
   line-height: 25px;
 }
+
+.course_info_row
+{
+  font-size: 14px;
+  padding: 3px 0px 5px 3px;
+}
+
+.course_info_date
+{
+  text-align: left;
+  padding: 5px;
+}
+
+.course_info_time
+{
+  text-align: left;
+  padding: 5px;
+}
+
+.course_info_status
+{
+  color: #ffffff;
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.course_info_full
+{
+  background-color: #e74c3c;
+}
+
+.course_info_available
+{
+  background-color: #1abc9c;
+}
+
+.course_info_address
+{
+  font-style: italic;
+  margin-top: 10px;
+  text-align: left;
+}
