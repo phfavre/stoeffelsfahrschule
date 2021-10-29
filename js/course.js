@@ -13,6 +13,8 @@ $(document).ready(function() {
 
         let count = 0;
 
+        let priceInfo = "";
+
         for (let i = 0; i < jsonData[row_type].length; ++i) {
             if (jsonData[row_type][i].date <= yesterdayStr)
             {
@@ -43,7 +45,6 @@ $(document).ready(function() {
                 htmlStr += '</div></div>';
             }
 
-            let priceInfo = "";
             if (row_type == "moto")
             {
                 priceInfo = "CHF 160.00 (pro Kurs a 4 Std.)";
