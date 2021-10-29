@@ -69,6 +69,16 @@
   {
     background-image: none;
   }
+
+  #moto_course_info_div
+  {
+    padding-bottom: 10px;
+  }
+
+  #vku_course_info_div
+  {
+    padding-bottom: 10px;
+  }
 }
 
 .course_type_card_title
