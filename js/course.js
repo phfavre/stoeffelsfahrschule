@@ -44,7 +44,7 @@ $(document).ready(function() {
             }
             htmlStr += '</div>';
         }
-        htmlStr += '<div class="course_info_address"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;Kirchstrasse 7, Gstaad</div>';
+        htmlStr += '<div class="course_info_address"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;Lauenenstrasse 5, Lauenen</div>';
 
         if (count == 0)
         {
