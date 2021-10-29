@@ -44,7 +44,7 @@ $(document).ready(function() {
             }
             htmlStr += '</div>';
         }
-        htmlStr += '<div class="course_info_address"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;Lauenenstrasse 5, Lauenen</div>';
+        htmlStr += '<div class="course_info_address"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;test Lauenenstrasse 5, Lauenen</div>';
 
         if (count == 0)
         {
