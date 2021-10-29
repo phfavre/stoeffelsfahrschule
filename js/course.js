@@ -44,7 +44,7 @@ $(document).ready(function() {
             }
             htmlStr += '</div>';
         }
-        htmlStr += '<div class="course_info_address"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;Lauenenstrasse 5, Lauenen,&nbsp;CHF 250.00 (4 Kurse)</div>';
+        htmlStr += '<div class="course_info_address"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;Lauenenstrasse 5, Lauenen, Schweiz,&nbsp;CHF 250.00 (4 Kurse)</div>';
 
         if (count == 0)
         {
