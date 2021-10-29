@@ -42,9 +42,20 @@ $(document).ready(function() {
                 htmlStr += "Frei";
                 htmlStr += '</div></div>';
             }
+
+            let priceInfo = "";
+            if (row_type == "moto")
+            {
+                priceInfo = "CHF 160.00 (pro Kurs a 4 Std.)";
+            }
+            if (row_type == "vku")
+            {
+                priceInfo = "CHF 250.00 (4 Kurse)";
+            }
+
             htmlStr += '</div>';
         }
-        htmlStr += '<div class="course_info_address"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;Lauenenstrasse 5, 3782 Lauenen,&nbsp;CHF 250.00 (4 Kurse)</div>';
+        htmlStr += '<div class="course_info_address"><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;Lauenenstrasse 5, 3782 Lauenen,&nbsp;' + priceInfo + '</div>';
 
         if (count == 0)
         {
