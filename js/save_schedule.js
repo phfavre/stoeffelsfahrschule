@@ -78,6 +78,9 @@ $(document).ready(function() {
             dataType: 'json',
             success: function(data) {
               console.log(data['msg']);
+              if (data["error"] == false) {
+                window.location.href = 'index.php';
+              }
             }
           })
     });
